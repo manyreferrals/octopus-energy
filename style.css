@@ -1,0 +1,123 @@
+body {
+	margin:0;
+	padding:0;
+	font-size:20px;
+	font-family:sans-serif;
+	color:white;
+	text-align:center;
+}
+header {
+	background-color:#040e28;
+	padding:1em 5%;
+}
+h1 {
+	margin:0;
+	font-weight:bolder;
+	font-size:2.5em;
+}
+h1 span.space {
+	font-size:.4em;
+}
+h1 span.energy {
+	font-weight:normal;
+}
+h3 {
+	font-weight:normal;
+	margin-top:2em;
+	font-size:1.5em;
+}
+h2 {
+	margin:0;
+	font-size:1.2em;
+	font-weight:normal;
+}
+main {
+	text-align:left;
+}
+section,footer {
+	padding:2em 0;
+	text-align:center;
+}
+.width {
+	margin:0 auto;
+	padding:0 5%;
+	max-width:800px;
+}
+a.button {
+	background-color:#ff0074;
+	padding:.5em 1em;
+	text-decoration:none;
+	color:black;
+	border-radius:.5em;
+	margin:1em auto;
+	display:block;
+	max-width:6em;
+	text-align:center;
+	font-size:1.2em;
+}
+section.title,footer {
+	background-color:#1b0a3a;
+}
+.iframe {
+	overflow:hidden;
+	padding-top:56.25%;
+	position:relative;
+}
+iframe.video {
+	border-radius:1em;
+	border:0;
+	height:100%;
+	left:0;
+	top:0;
+	position:absolute;
+	width:100%;
+}
+.more p {
+	margin:0;
+	font-size:1.5em;
+	margin-top:.5em;
+}
+section.text {
+	background-color:#011739;
+	text-align:left;
+}
+section.points {
+	background-color:#040e28;
+}
+section.points > div.width > div {
+	height:2em;
+	line-height:1em;
+	margin-top:1em;
+	width:18em;
+	display:inline-block;
+	vertical-align:text-top;
+	text-align:left;
+}
+section.points > div.width > div::before {
+	content:'✓';
+	font-size:2em;
+	margin-right:.5em;
+	vertical-align:text-top;
+	color:green;
+	float:left;
+}
+section.points > div.width > div::after {
+	margin-right:3em;
+	content:'';
+}
+
+@media screen and (max-width: 500px) {
+.iframe {
+	padding-top:90%;
+}
+}
+@media screen and (max-width: 410px) {
+h1 {
+	font-size:2em;
+}
+}
+@media screen and (max-width: 330px) {
+h1 {
+	font-size:1.8em;
+}
+}
